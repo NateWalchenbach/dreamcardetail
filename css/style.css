@@ -2,9 +2,10 @@
 /********* General CSS *********/
 /*******************************/
 body {
-  color: #444444;
+  color: #797979;
   font-weight: 400;
-  background: #ffffff;
+  /* background: #ffffff; */
+  background: black;
   font-family: "Barlow", sans-serif;
 }
 
@@ -80,7 +81,7 @@ a:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #ffffff;
+  background: black;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: opacity 0.3s ease-out, visibility 0s linear 0.3s;
@@ -159,7 +160,7 @@ a:focus {
   height: 75px;
   display: flex;
   align-items: center;
-  background: #ffffff;
+  background: black;
 }
 
 .top-bar .logo {
@@ -276,12 +277,12 @@ a:focus {
   margin-top: 0;
   border: 0;
   border-radius: 0;
-  background: #f8f9fa;
+  background: #444444;
 }
 
 .nav-bar .btn.btn-custom {
-  color: #3f8cda;
-  background: #ffffff;
+  color: #ffffff;
+  background: rgb(255, 149, 0);
   box-shadow: inset 0 0 0 0 rgb(255, 149, 0);
 }
 
@@ -321,7 +322,7 @@ a:focus {
   position: relative;
   width: 100%;
   min-height: 400px;
-  background: #ffffff;
+  background: black;
   margin-bottom: 45px;
 }
 
@@ -543,7 +544,7 @@ a:focus {
   height: 2px;
   left: calc(50% - 50px);
   bottom: 0;
-  background: #ffffff;
+  background: rgb(58, 58, 58);
 }
 
 .page-header a {
@@ -825,7 +826,7 @@ a:focus {
 .price .price-item {
   position: relative;
   margin-bottom: 30px;
-  background: #ffffff;
+  background: black;
   border-radius: 5px;
   text-align: center;
 }
